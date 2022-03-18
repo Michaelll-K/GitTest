@@ -13,7 +13,7 @@ namespace FirstCode
 
             string text = Console.ReadLine().ToUpper();
 
-            Console.WriteLine(text);
+            Console.WriteLine(text + "Directly on the main line");
 
             Console.ReadKey();
         }
