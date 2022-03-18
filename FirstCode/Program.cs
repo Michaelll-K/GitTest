@@ -14,7 +14,7 @@ namespace FirstCode
 
             string text = Console.ReadLine();
 
-
+            Console.WriteLine(text);
 
             Console.ReadKey();
         }
