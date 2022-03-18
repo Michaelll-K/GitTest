@@ -10,7 +10,7 @@ namespace FirstCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello everyone!");
 
             string text = Console.ReadLine().ToUpper();
 
