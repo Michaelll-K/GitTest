@@ -11,6 +11,12 @@ namespace FirstCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            string text = Console.ReadLine();
+
+
+
+            Console.ReadKey();
         }
     }
 }
