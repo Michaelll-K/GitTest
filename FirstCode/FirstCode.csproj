@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeReviewer.cs" />
+    <Compile Include="IMathPerformedServices.cs" />
+    <Compile Include="LoggingServices.cs" />
+    <Compile Include="MathPerformedEventArgs.cs" />
+    <Compile Include="MathService.cs" />
+    <Compile Include="NotificationService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

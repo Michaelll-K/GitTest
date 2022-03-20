@@ -10,20 +10,16 @@ namespace FirstCode
     {
         static void Main(string[] args)
         {
+            MathService service = new MathService();
 
-            new List<string>
-            { 
-                "Steve", "Joe", "Marry", "Julie"
-            }
-            .ForEach(x => Console.WriteLine(x));
+            new List<IMathPerformedServices> {
+                new LoggingServices(), new NotificationService()
+            }.ForEach(serv => service.MathPerformed += serv.OnMathPerformed);
 
-            Console.WriteLine();
+            service.AddNumbers(4, 5);
+            service.MultiplyNumbers(2, 5);
 
-            new List<string>
-            { 
-                "Tom", "Dick", "Harry" 
-            }
-            .ForEach(x => Console.WriteLine(x));
+
 
             Console.ReadKey();
         }
