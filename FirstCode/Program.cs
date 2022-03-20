@@ -11,9 +11,19 @@ namespace FirstCode
         static void Main(string[] args)
         {
 
-            string text = Console.ReadLine().ToUpper();
+            new List<string>
+            { 
+                "Steve", "Joe", "Marry", "Julie"
+            }
+            .ForEach(x => Console.WriteLine(x));
 
-            Console.WriteLine(text + "Directly on the main line");
+            Console.WriteLine();
+
+            new List<string>
+            { 
+                "Tom", "Dick", "Harry" 
+            }
+            .ForEach(x => Console.WriteLine(x));
 
             Console.ReadKey();
         }
