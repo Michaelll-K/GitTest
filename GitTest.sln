@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func, Action", "Func, Actio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{CA674366-AEA8-4A9F-8551-F593CA1B2802}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CA674366-AEA8-4A9F-8551-F593CA1B2802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA674366-AEA8-4A9F-8551-F593CA1B2802}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA674366-AEA8-4A9F-8551-F593CA1B2802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
