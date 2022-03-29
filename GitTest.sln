@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejsy", "Interfejsy\Interfejsy.csproj", "{4870800D-CDF5-48FC-8CC6-01E93C15B780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlasyAbstrakcyjne", "KlasyAbstrakcyjne\KlasyAbstrakcyjne.csproj", "{1B734F34-7537-4C41-A4B7-B767FBBAAED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F226EAA-CB6E-4F17-A9DE-FFAA49C1A8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4870800D-CDF5-48FC-8CC6-01E93C15B780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4870800D-CDF5-48FC-8CC6-01E93C15B780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4870800D-CDF5-48FC-8CC6-01E93C15B780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4870800D-CDF5-48FC-8CC6-01E93C15B780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B734F34-7537-4C41-A4B7-B767FBBAAED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B734F34-7537-4C41-A4B7-B767FBBAAED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B734F34-7537-4C41-A4B7-B767FBBAAED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B734F34-7537-4C41-A4B7-B767FBBAAED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
