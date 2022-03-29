@@ -20,6 +20,7 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
     {
         // nie trzeba pisać public ani abstract!!!
         void Atak(int pktAtaku); // metody w interfejsie nie zawierają ciała 
+        string Nazwa { get; set; }
     }
 
 
@@ -42,9 +43,11 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
             this.PunktyHP = punktyHP;
         }
 
-        void IAtakMagiczny.Atak(int pktAtaku)
+        public string Nazwa { get; set; }
+
+        public void Atak(int pktAtaku)
         {
-            Console.WriteLine("magia");
+            Console.WriteLine();
         }
 
         void IAtakFizyczny.Atak(int pktAtaku)
