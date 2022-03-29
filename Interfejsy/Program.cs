@@ -21,6 +21,7 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
         // nie trzeba pisać public ani abstract!!!
         void Atak(int pktAtaku); // metody w interfejsie nie zawierają ciała 
         string Nazwa { get; set; }
+
     }
 
 
