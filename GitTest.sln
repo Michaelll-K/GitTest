@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlasyAbstrakcyjne", "KlasyA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Touples\Tuple.csproj", "{B13823F1-8D01-4DC3-97A3-238B9E972168}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{652EDCFE-43C6-427B-90F2-E87965851A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B13823F1-8D01-4DC3-97A3-238B9E972168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B13823F1-8D01-4DC3-97A3-238B9E972168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B13823F1-8D01-4DC3-97A3-238B9E972168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652EDCFE-43C6-427B-90F2-E87965851A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652EDCFE-43C6-427B-90F2-E87965851A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652EDCFE-43C6-427B-90F2-E87965851A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652EDCFE-43C6-427B-90F2-E87965851A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
