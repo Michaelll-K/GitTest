@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WartosciVsReferencje", "War
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolejkiStosy", "KolejkiStosy\KolejkiStosy.csproj", "{AA5E2FA0-52F9-4525-A83B-05C0F06BE9BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slownik", "Slownik\Slownik.csproj", "{D23C47C0-09E5-4FC3-AEB9-78D7A351EDFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{AA5E2FA0-52F9-4525-A83B-05C0F06BE9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5E2FA0-52F9-4525-A83B-05C0F06BE9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5E2FA0-52F9-4525-A83B-05C0F06BE9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23C47C0-09E5-4FC3-AEB9-78D7A351EDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23C47C0-09E5-4FC3-AEB9-78D7A351EDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23C47C0-09E5-4FC3-AEB9-78D7A351EDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23C47C0-09E5-4FC3-AEB9-78D7A351EDFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
