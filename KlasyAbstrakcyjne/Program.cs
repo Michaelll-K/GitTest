@@ -10,7 +10,7 @@ namespace KlasyAbstrakcyjne
     {
         static void Main(string[] args)
         {
-            Zwierze zwierze = new Zwierze(); // nie da sie stworzyć klasy abstrakcyjnej
+            //Zwierze zwierze = new Zwierze(); // nie da sie stworzyć klasy abstrakcyjnej
 
             Ssak ssak = new Ssak();
             ssak.Przedstaw_Sie();
@@ -43,6 +43,9 @@ namespace KlasyAbstrakcyjne
 
     public class Kot : Ssak
     {
-
+        public override void Przedstaw_Sie()
+        {
+            Console.WriteLine("Kot");
+        }
     }
 }

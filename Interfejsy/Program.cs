@@ -12,7 +12,8 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
         {
             Postac p1 = new Postac("michal", 23);
             IAtakMagiczny atak = (IAtakMagiczny)p1;
-            atak.Atak(23);
+            atak.Atak(12);
+            Console.ReadKey();
         }
     }
     
@@ -48,12 +49,17 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
 
         public void Atak(int pktAtaku)
         {
-            Console.WriteLine();
+            Console.WriteLine($"Zaatakowałeś za: {pktAtaku}");
         }
 
         void IAtakFizyczny.Atak(int pktAtaku)
         {
             Console.WriteLine("miecz");
+        }
+
+        void IAtakMagiczny.Atak(int pktAtaku)
+        {
+            Console.WriteLine("różdżka");
         }
     }
 }

@@ -28,14 +28,37 @@ namespace IEnumerable
                 Console.WriteLine(item);
             }
 
-            IEnumerator<int> ienumerator = myList.GetEnumerator();
 
-            while (ienumerator.MoveNext())
-            {
-                Console.WriteLine(ienumerator.Current.ToString());
-            }
+            IEnumerator<int> ienumerator = myList.GetEnumerator(); // IEnumerator zapamiętuje w jakim stanie jest (na jakim elemencie się zatrzymał) || wie gdzie jest jego "kursor"
+
+            //while (ienumerator.MoveNext())
+            //{
+            //    Console.WriteLine(ienumerator.Current.ToString());
+            //}
+
+            Console.WriteLine();
+
+            Pod1000(ienumerator);
 
             Console.ReadKey();
+        }
+
+        static void Pod1000(IEnumerator<int> enumerator)
+        {
+            while(enumerator.MoveNext())
+            {
+                Console.WriteLine(enumerator.Current.ToString());
+                if (enumerator.Current > 999)
+                    Nad1000(enumerator);// przekazanie enumeratora
+            }
+        }
+
+        static void Nad1000(IEnumerator<int> enumerator)// tutaj ma tą samą wartość co w poprzedniej metodzie
+        {
+            while(enumerator.MoveNext())
+            {
+                Console.WriteLine(enumerator.Current.ToString());
+            }
         }
     }
 }

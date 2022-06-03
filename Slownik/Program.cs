@@ -39,7 +39,7 @@ namespace Slownik
 
             currencies.Add("pln", new Currency("pln", "", 124));
 
-            //currencies.TryAdd("pln", new Currency("pln", "", 124)); <- nwm czm nie dziala
+            //currencies.TryAdd("pln", new Currency("pln", "", 124)); //<- nwm czm nie dziala
             Console.ReadKey();
         }
     }

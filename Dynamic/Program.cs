@@ -11,7 +11,7 @@ namespace Dynamic
         static void Main(string[] args)
         {
             dynamic tojestDynamic = "aa";
-            tojestDynamic.ToUpper(); // nie ma żadnych podpowiedzi | ale nie ma też błędu
+            tojestDynamic.ToUpper(); // nie ma żadnych podpowiedzi || ale nie ma też błędu
 
 
             int mint = 1 + 3;
