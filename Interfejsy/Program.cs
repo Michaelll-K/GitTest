@@ -17,7 +17,7 @@ namespace Interfejsy // abstrakcyjna klasa zawierająca abstrakcyjne elementy
         }
     }
     
-    interface IAtakMagiczny // mogą zawierać tylko metody
+    interface IAtakMagiczny
     {
         // nie trzeba pisać public ani abstract!!!
         void Atak(int pktAtaku); // metody w interfejsie nie zawierają ciała 
